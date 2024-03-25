@@ -1,0 +1,6 @@
+# 是否开始执行
+bool execute
+---
+# 是否完成执行
+bool finish
+
