@@ -1,6 +1,4 @@
-# 是否开始执行
-bool execute
+bool execute #是否开始执行
 ---
-# 是否完成执行
-bool finish
+bool finish #是否完成执行
 
