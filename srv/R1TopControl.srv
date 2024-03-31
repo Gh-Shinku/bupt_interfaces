@@ -1,4 +1,5 @@
 bool execute #是否开始执行
+string mode #执行的模式
 ---
 bool finish #是否完成执行
 
