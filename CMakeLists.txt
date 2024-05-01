@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(custom_interface)
+project(bupt_interfaces)
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
@@ -11,11 +11,13 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 
-# 声明srv文件所属的工程名字, 文件位置, 依赖DEPENDENCIES
+# 声明srv等文件所属的工程名字, 文件位置, 依赖DEPENDENCIES
 find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/R1TopControl.srv"
   "srv/ControlState.srv"
+  "srv/JoyStickInteraction.srv"
+  "msg/Joystick.msg"
   DEPENDENCIES geometry_msgs std_msgs
  )
 
