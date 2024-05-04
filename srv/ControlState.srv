@@ -1,4 +1,4 @@
-# 这是DT35的通信消息类型
+
 string sensor_name
 bool open
 ---

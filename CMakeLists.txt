@@ -17,7 +17,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/R1TopControl.srv"
   "srv/ControlState.srv"
   "srv/JoyStickInteraction.srv"
+  "srv/FineAdjust.srv"
   "msg/Joystick.msg"
+  "msg/Dt35.msg"
   DEPENDENCIES geometry_msgs std_msgs
  )
 
