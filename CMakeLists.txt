@@ -18,10 +18,11 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ControlState.srv"
   "srv/JoyStickInteraction.srv"
   "srv/FineAdjust.srv"
+  "srv/OdomCorrect.srv"
   "msg/Joystick.msg"
   "msg/Dt35.msg"
   DEPENDENCIES geometry_msgs std_msgs
- )
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

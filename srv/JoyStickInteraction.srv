@@ -1,3 +1,2 @@
 bool open   #是否开启手柄控制
-string info #请求信息
 ---

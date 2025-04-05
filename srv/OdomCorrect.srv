@@ -1,0 +1,3 @@
+float64[3]  accurate_pose   # 准确的x，y，yaw
+bool[3] enable              # 是否使用对应下标的位姿
+---
