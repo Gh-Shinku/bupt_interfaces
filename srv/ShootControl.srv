@@ -1,0 +1,4 @@
+bool is_auto # 是否自动计算发射速度
+uint8 level # 速度等级
+---
+bool finish # 是否执行完成
