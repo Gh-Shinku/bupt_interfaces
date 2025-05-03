@@ -1,2 +1,3 @@
-bool open   #是否开启手柄控制
+bool open   # 是否开启手柄控制
 ---
+bool finish
