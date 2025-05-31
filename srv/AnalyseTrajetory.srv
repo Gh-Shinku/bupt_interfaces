@@ -1,5 +1,6 @@
 float64 xf
 float64 yf
+float64 v0
 ---
 bool accurate
 float64 theta
