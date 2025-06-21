@@ -1,0 +1,5 @@
+# ShootParams.srv
+uint16 rpm
+uint16 angle
+---
+bool finish

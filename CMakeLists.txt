@@ -20,6 +20,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/FineAdjust.srv"
   "srv/OdomCorrect.srv"
   "srv/AnalyseTrajetory.srv"
+  "srv/ShootParams.srv"
   "msg/Joystick.msg"
   "msg/Dt35.msg"
   DEPENDENCIES geometry_msgs std_msgs
