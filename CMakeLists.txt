@@ -22,9 +22,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/OdomCorrect.srv"
   "srv/AnalyseTrajetory.srv"
   "srv/ShootParams.srv"
+  "srv/GetAveOdom.srv"
+  "srv/R2TopControl2025.srv"
   "msg/Joystick.msg"
   "msg/Dt35.msg"
-  "srv/GetAveOdom.srv"
   DEPENDENCIES geometry_msgs std_msgs nav_msgs
 )
 
