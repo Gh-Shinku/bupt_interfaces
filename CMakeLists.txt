@@ -23,7 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AnalyseTrajetory.srv"
   "srv/ShootParams.srv"
   "srv/GetAveOdom.srv"
-  "srv/R2TopControl2025.srv"
+  "srv/ActionControl.srv"
   "msg/Joystick.msg"
   "srv/Float2Float.srv"
   "msg/Dt35.msg"
