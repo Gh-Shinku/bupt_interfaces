@@ -24,8 +24,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ShootParams.srv"
   "srv/GetAveOdom.srv"
   "srv/ActionControl.srv"
+  "srv/CalculateRpm.srv"
   "msg/Joystick.msg"
-  "srv/Float2Float.srv"
   "msg/Dt35.msg"
   DEPENDENCIES geometry_msgs std_msgs nav_msgs
 )
