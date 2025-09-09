@@ -22,6 +22,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ActionControl.srv"
   "srv/ActionInfo.srv"
   "srv/CalculateRpm.srv"
+  "srv/ArgiVisionDetect.srv"
   "msg/Joystick.msg"
   "msg/Dt35.msg"
   DEPENDENCIES geometry_msgs std_msgs nav_msgs

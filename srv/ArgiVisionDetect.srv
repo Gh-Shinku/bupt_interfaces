@@ -1,0 +1,10 @@
+# see enum in shared_interfaces
+uint32 detect_type
+
+# detect types
+uint32 C_DETECT_INFOBOARD=1
+uint32 C_DETECT_QRCODE=2
+uint32 C_DETECT_PICTURE=3
+---
+# 6 numbers for info-board and qr-code, 1 number for drought picture
+string result
